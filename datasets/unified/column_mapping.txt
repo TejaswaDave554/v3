@@ -1,0 +1,126 @@
+================================================================================
+COLUMN MAPPING REFERENCE - For Dashboard Updates
+================================================================================
+
+Use these exact column names in app/pages.py
+
+
+### HOUSEHOLD
+Total Rows: 85
+Total Columns: 5
+
+Columns:
+   1. 'City Name' (object)
+   2. 'Zone Name' (int64)
+   3. 'Ward Name' (object)
+   4. 'Ward No.' (int64)
+   5. 'Total no. of Households' (int64)
+
+--------------------------------------------------------------------------------
+
+### DIGITAL
+Total Rows: 1
+Total Columns: 10
+
+Columns:
+   1. 'City Name' (object)
+   2. 'Zone Name' (object)
+   3. 'Online Payment of taxes (property / water) [Yes / No]' (object)
+   4. 'Online Payment against traffic violations (challans, fines, etc.) [Yes / No]' (object)
+   5. 'Online request for Service Connections (gas, water supply) [Yes / No]' (object)
+   6. 'Online request for Certificates / Licenses (marriage, driving, birth & death certificates) [Yes / No]' (object)
+   7. 'Online display of Tenders (for various works) across various departments/ utilities [Yes / No]' (object)
+   8. 'Online Grievance management (tracking of complaints) [Yes / No]' (object)
+   9. 'Online buying of Tickets and passes (e.g. public transport, cultural events) [Yes / No]' (object)
+  10. 'Online request of Disclosure of documents (e.g. budgets, plans, RTI requests) [Yes / No]' (object)
+
+--------------------------------------------------------------------------------
+
+### CITY_PROFILE
+Total Rows: 85
+Total Columns: 5
+
+Columns:
+   1. 'City Name' (object)
+   2. 'Zone Name' (int64)
+   3. 'Ward Name' (object)
+   4. 'Ward No.' (int64)
+   5. 'Total Population (in thousands)' (int64)
+
+--------------------------------------------------------------------------------
+
+### WATER_SANITATION
+Total Rows: 85
+Total Columns: 12
+
+Columns:
+   1. 'City Name' (object)
+   2. 'Zone Name' (object)
+   3. 'Ward Name' (object)
+   4. 'Ward No.' (int64)
+   5. 'Total number of households (HH)' (int64)
+   6. 'HH part of the city sewerage network' (int64)
+   7. 'Number of Households with toilets' (int64)
+   8. 'Number of free public toilets - Female' (int64)
+   9. 'Number of free public toilets - Male' (int64)
+  10. 'Number of paid public toilets - Female' (int64)
+  11. 'Number of paid public toilets - Male' (int64)
+  12. 'Number of Public Toilet ' (int64)
+
+--------------------------------------------------------------------------------
+
+### ENVIRONMENT
+Total Rows: 24
+Total Columns: 8
+
+Columns:
+   1. 'City Name' (object)
+   2. 'Month -Year' (object)
+   3. 'Monthly mean/average concentration - PM2.5' (float64)
+   4. 'Monthly mean concentration - PM10' (float64)
+   5. 'Monthly mean concentration - NO2' (float64)
+   6. 'Monthly mean concentration - SO2' (float64)
+   7. 'Monthly mean concentration - O3' (float64)
+   8. 'No of AQM Sensors / Environmental sensors deployed' (object)
+
+--------------------------------------------------------------------------------
+
+### CRIMES
+Total Rows: 4
+Total Columns: 3
+
+Columns:
+   1. 'City Name' (object)
+   2. 'Year' (object)
+   3. 'Total number of crimes recorded' (int64)
+
+--------------------------------------------------------------------------------
+
+### INTERSECTIONS
+Total Rows: 41
+Total Columns: 6
+
+Columns:
+   1. 'City Name' (object)
+   2. 'Zone Name' (object)
+   3. 'Ward Name' (object)
+   4. 'Ward No.' (int64)
+   5. 'No. of intersections / junctions' (int64)
+   6. 'Total number of operational signalized intersections' (int64)
+
+--------------------------------------------------------------------------------
+
+### EMPLOYMENT
+Total Rows: 1
+Total Columns: 7
+
+Columns:
+   1. 'City Name' (object)
+   2. 'Zone Name' (object)
+   3. 'Ward Name' (object)
+   4. 'Ward No.' (object)
+   5. 'No. of unemployed persons (seeking or available for work)' (int64)
+   6. 'No. of employed persons' (int64)
+   7. 'Total labour force in the city (age 15-59) [Employed + Unemployed Persons)' (int64)
+
+--------------------------------------------------------------------------------
